@@ -1,7 +1,7 @@
 import json
 
 from json_work import monster
-from db import models
+from db.models.armor import Armor
 
 
 class JsonWorker(object):
@@ -41,7 +41,30 @@ class JsonWorker(object):
         pass
 
     def _parse_armor(self, armor_str):
-        pass
+        armor = Armor()
+
+        class_char = armor_str.strip().split('(')
+        if any(class_char):
+            armor_class = class_char[0].strip()
+            armor.armor_class = armor_class
+        if len(class_char) == 2:
+            types_extras_str = class_char[1].strip().replace(')', '')
+            types_extras = types_extras_str.split(',')
+            types_extras = [type_extra.strip() for type_extra in types_extras]
+            types = []
+            extras = []
+            for type_extra in types_extras:
+                if any(map(str.isdigit, type_extra)):
+                    extras.append(type_extra)
+                else:
+                    types.append(type_extra)
+            if any(types):
+                armor.type = ', '.join(types)
+            if any(extras):
+                armor.extra_armor = ', '.join(extras)
+
+
+
 
     def _parse_entity(self, monster):
         pass
