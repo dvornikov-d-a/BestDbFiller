@@ -1,5 +1,5 @@
-old_file = open('monsters_old.json', 'rt', encoding='utf8')
-new_file = open('monsters.json', 'wt', encoding='utf8')
+old_file = open('json_source/monsters_old.json', 'rt', encoding='utf8')
+new_file = open('json_source/monsters.json', 'wt', encoding='utf8')
 for line in old_file:
     # if line.__contains__('monster') & line.__contains__(':'):
     #     new_line = '    {\n'

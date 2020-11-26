@@ -1,2 +1,4 @@
-old_file = open('monsters.json', 'rt', encoding='utf8')
-new_file = open('ready_data.json', 'wt', encoding='utf8')
+from json_work.json_worker import JsonWorker
+
+
+JsonWorker().serialize_db_data()

@@ -1,4 +1,6 @@
 import json
+import copy
+import os.path
 
 from db.models.armor import Armor
 from db.models.entity import Entity
@@ -11,11 +13,25 @@ from json_work.models.db_data import DbData
 
 class JsonWorker(object):
     def __init__(self):
-        self.monsters_path = 'monsters.json'
+        self.db_data_path = 'json_source/db_data.json'
+        self.monsters_path = 'json_source/monsters.json'
         self.monsters_list = []
         self.db_data = DbData()
 
-    def parse_monsters(self):
+    def get_db_data(self):
+        self.db_data.clear()
+        if os.path.exists(self.db_data_path):
+            with open(self.db_data_path, 'rt', encoding='utf8') as json_file:
+                self.db_data = json.load(json_file)
+        return copy.deepcopy(self.db_data)
+
+    def serialize_db_data(self):
+        self.db_data.clear()
+        self._parse_monsters()
+        with open(self.db_data_path, 'w', encoding='utf8') as json_file:
+            json.dump(self.db_data, json_file)
+
+    def _parse_monsters(self):
         self._deserialize_monsters()
         for monster in self.monsters_list:
             self._parse_abilities(monster.abilities)

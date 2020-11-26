@@ -33,3 +33,14 @@ class DbData(object):
         self.skills = skills
         self.speeds = speeds
         self.stats = stats
+
+    def clear(self):
+        self.abilities.clear()
+        self.active_actions.clear()
+        self.armors.clear()
+        self.entities.clear()
+        self.feelings.clear()
+        self.languages.clear()
+        self.skills.clear()
+        self.speeds.clear()
+        self.stats.clear()
