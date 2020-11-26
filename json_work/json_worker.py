@@ -2,6 +2,7 @@ import json
 
 from db.models.armor import Armor
 from db.models.entity import Entity
+from db.models.feeling import Feeling
 
 
 class JsonWorker(object):
@@ -18,7 +19,7 @@ class JsonWorker(object):
         # self.entities_feelings = []
         # self.entities_languages = []
         # self.entities_skills = []
-        self.feelings = []
+        self.feelings = []  # список списков чувств монстров
         self.languages = []
         self.skills = []
         self.speeds = []
@@ -74,7 +75,32 @@ class JsonWorker(object):
         self.entities.append(entity)
 
     def _parse_feelings(self, feelings_str):
-        pass
+        feelings_str_list = feelings_str.strip().split(',')
+        feelings_str_list = [feeling_str.strip() for feeling_str in feelings_str_list]
+
+        monster_feelings = []
+
+        for feeling_str in feelings_str_list:
+            if any(map(str.isdigit, feeling_str)):
+                feeling = Feeling()
+
+                words = [word.strip() for word in feeling_str.split(' ')]
+                if words[-1].__contains__('фт') and words[-2].isdigit():
+                    name = ' '.join(words[:-2])
+                    radius = ' '.join(words[-2:])
+                    feeling.name = name
+                    feeling.radius = radius
+                elif words[-1].isdigit():
+                    name = ' '.join(words[:-1])
+                    buff = words[-1]
+                    feeling.name = name
+                    feeling.buff = buff
+                else:
+                    continue
+
+                monster_feelings.append(feeling)
+
+        self.feelings.append(monster_feelings)
 
     def _parse_skills(self, skills_str):
         pass
