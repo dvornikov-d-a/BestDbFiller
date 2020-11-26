@@ -1,7 +1,7 @@
 import json
 
-from json_work import monster
 from db.models.armor import Armor
+from db.models.entity import Entity
 
 
 class JsonWorker(object):
@@ -13,11 +13,11 @@ class JsonWorker(object):
         self.active_actions = []
         self.armors = []
         self.entities = []
-        self.entities_abilities = []
-        self.entities_actions = []
-        self.entities_feelings = []
-        self.entities_languages = []
-        self.entities_skills = []
+        # self.entities_abilities = []
+        # self.entities_actions = []
+        # self.entities_feelings = []
+        # self.entities_languages = []
+        # self.entities_skills = []
         self.feelings = []
         self.languages = []
         self.skills = []
@@ -63,11 +63,15 @@ class JsonWorker(object):
             if any(extras):
                 armor.extra_armor = ', '.join(extras)
 
-
-
+        self.armors.append(armor)
 
     def _parse_entity(self, monster):
-        pass
+        name = monster.name.strip()
+        hits = monster.hits.strip()
+        danger = monster.danger.strip()
+        desc = monster.description.strip()
+        entity = Entity(name=name, hits=hits, danger=danger, desc=desc)
+        self.entities.append(entity)
 
     def _parse_feelings(self, feelings_str):
         pass
@@ -80,4 +84,3 @@ class JsonWorker(object):
 
     def _parse_stats(self, stats_str):
         pass
-

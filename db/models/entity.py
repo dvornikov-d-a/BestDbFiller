@@ -1,6 +1,6 @@
 class Entity(object):
-    def __init__(self, name, hp, hits, danger, desc, exp,
-                 stats, armor):
+    def __init__(self, name='NULL', hp='NULL', hits='NULL', danger='NULL', desc='NULL', exp='NULL',
+                 stats='NULL', armor='NULL'):
         self.name = name
         self.hp = hp
         self.hits = hits
