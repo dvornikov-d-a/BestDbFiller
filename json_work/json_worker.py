@@ -5,6 +5,7 @@ from db.models.entity import Entity
 from db.models.feeling import Feeling
 from db.models.skill import Skill
 from db.models.speed import Speed
+from db.models.stat import Stat
 
 
 class JsonWorker(object):
@@ -104,6 +105,9 @@ class JsonWorker(object):
 
         self.feelings.append(monster_feelings)
 
+    def _parse_languages(self, languages_str):
+        pass
+
     def _parse_skills(self, skills_str):
         skills_str_list = [skill_str.strip() for skill_str in skills_str.strip().split(',')]
 
@@ -150,5 +154,23 @@ class JsonWorker(object):
 
         self.speeds.append(monster_speeds)
 
-    def _parse_stats(self, stats_str):
-        pass
+    def _parse_stats(self, monster):
+        strength, strength_plus = self._parse_stat_and_plus(monster.strength)
+        physique, physique_plus = self._parse_stat_and_plus(monster.physique)
+        intellect, intellect_plus = self._parse_stat_and_plus(monster.intellect)
+        wisdom, wisdom_plus = self._parse_stat_and_plus(monster.wisdow)
+        charisma, charisma_plus = self._parse_stat_and_plus(monster.charisma)
+        stat = Stat(strength, strength_plus, physique, physique_plus, intellect, intellect_plus,
+                    wisdom, wisdom_plus, charisma, charisma_plus)
+        self.stats.append(stat)
+
+    @staticmethod
+    def _parse_stat_and_plus(stat_str):
+        stat_and_plus = [str.strip() for str in stat_str.strip().split(' ')]
+        if len(stat_and_plus) == 2:
+            stat = stat_and_plus[0]
+            plus = stat_and_plus[1].replace('(', '').replace(')', '')
+        else:
+            stat, plus = 0, 0
+
+        return stat, plus
