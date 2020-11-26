@@ -1,5 +1,5 @@
 class Skill(object):
-    def __init__(self, name, buff):
+    def __init__(self, name='NULL', buff='NULL'):
         self.name = name
         self.buff = buff
 

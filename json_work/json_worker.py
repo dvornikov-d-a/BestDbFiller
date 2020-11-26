@@ -3,6 +3,7 @@ import json
 from db.models.armor import Armor
 from db.models.entity import Entity
 from db.models.feeling import Feeling
+from db.models.skill import Skill
 
 
 class JsonWorker(object):
@@ -103,7 +104,20 @@ class JsonWorker(object):
         self.feelings.append(monster_feelings)
 
     def _parse_skills(self, skills_str):
-        pass
+        skills_str_list = [skill_str.strip() for skill_str in skills_str.strip().split(',')]
+
+        monster_skills = []
+
+        for skill_str in skills_str_list:
+            name_buff = skill_str.split(' ')
+            if len(name_buff) == 2:
+                name = name_buff[0]
+                buff = name_buff[1]
+                skill = Skill(name, buff)
+                monster_skills.append(skill)
+
+        self.skills.append(monster_skills)
+
 
     def _parse_speed(self, speed_str):
         pass
