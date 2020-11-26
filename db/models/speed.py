@@ -1,8 +1,8 @@
-class EntitySpeed(object):
-    def __init__(self, entity, speed_type, speed_value):
+class Speed(object):
+    def __init__(self, entity='NULL', speed_type='NULL', speed_value='NULL'):
         self.entity = entity
-        self.speed_type = speed_type
-        self.speed_value = speed_value
+        self.type = speed_type
+        self.value = speed_value
 
     def __repr__(self):
-        return "EntitySpeed('%s', '%s', '%s')" % (self.entity, self.speed_type, self.speed_value)
+        return "EntitySpeed('%s', '%s', '%s')" % (self.entity, self.type, self.value)

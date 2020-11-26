@@ -4,6 +4,7 @@ from db.models.armor import Armor
 from db.models.entity import Entity
 from db.models.feeling import Feeling
 from db.models.skill import Skill
+from db.models.speed import Speed
 
 
 class JsonWorker(object):
@@ -118,9 +119,36 @@ class JsonWorker(object):
 
         self.skills.append(monster_skills)
 
+    def _parse_speed(self, speeds_str):
+        monster_speeds = []
 
-    def _parse_speed(self, speed_str):
-        pass
+        # избавиться от скобок
+        while speeds_str.__contains__('('):
+            if not speeds_str.__contains__(')'):
+                self.speeds.append(monster_speeds)
+                return
+
+            open_scope_index = speeds_str.index('(')
+            close_scope_index = speeds_str.index(')')
+            speeds_str = speeds_str[:open_scope_index] + speeds_str[close_scope_index+1:]
+
+        speeds_str_list = [speed_str.strip() for speed_str in speeds_str.strip().split(',')]
+        for speed_str in speeds_str_list:
+            words = [word.strip() for word in speed_str.split(' ')]
+            if any(words):
+                speed = Speed()
+
+                ft_index = words.index('фт.')
+                val_index = ft_index - 1
+                value = "%s %s" % (words[val_index].replace('фт', ''), words[ft_index])
+                speed.value = value
+                if val_index != 0:
+                    type = words[0]
+                    speed.type = type
+
+                monster_speeds.append(speed)
+
+        self.speeds.append(monster_speeds)
 
     def _parse_stats(self, stats_str):
         pass
