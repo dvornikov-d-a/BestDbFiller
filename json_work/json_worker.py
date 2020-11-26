@@ -31,8 +31,15 @@ class JsonWorker(object):
     def parse_monsters(self):
         self._deserialize_monsters()
         for monster in self.monsters_list:
-            pass
-        pass
+            self._parse_abilities(monster.abilities)
+            self._parse_active_actions(monster.actions)
+            self._parse_armor(monster.armor_class)
+            self._parse_entity(monster)
+            self._parse_feelings(monster.feelings)
+            # self._parse_languages(?)
+            self._parse_skills(monster.skills)
+            self._parse_speed(monster.speed)
+            self._parse_stats(monster)
 
     def _deserialize_monsters(self):
         with open(self.monsters_path, 'r', encoding='utf8') as json_file:
