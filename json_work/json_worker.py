@@ -2,13 +2,18 @@ import json
 import copy
 import os.path
 
+from db.models.ability import Ability
+from db.models.active_action import ActiveAction
 from db.models.armor import Armor
 from db.models.entity import Entity
 from db.models.feeling import Feeling
+from db.models.language import Language
 from db.models.skill import Skill
 from db.models.speed import Speed
 from db.models.stat import Stat
+from json_work.db_data_encoder import DbDataEncoder
 from json_work.models.db_data import DbData
+from json_work.models.monster import Monster
 
 
 class JsonWorker(object):
@@ -20,16 +25,40 @@ class JsonWorker(object):
 
     def get_db_data(self):
         self.db_data.clear()
-        if os.path.exists(self.db_data_path):
-            with open(self.db_data_path, 'rt', encoding='utf8') as json_file:
-                self.db_data = json.load(json_file)
+
+        def decode_object(o):
+            if isinstance(o, DbData):
+                db_data = DbData()
+                db_data.__dict__.update(o)
+                return db_data
+            elif isinstance(o, Ability):
+                pass
+            elif isinstance(o, ActiveAction):
+                pass
+            elif isinstance(o, Armor):
+                pass
+            elif isinstance(o, Entity):
+                pass
+            elif isinstance(o, Feeling):
+                pass
+            elif isinstance(o, Language):
+                pass
+            elif isinstance(o, Skill):
+                pass
+            elif isinstance(o, Speed):
+                pass
+            elif isinstance(o, Stat):
+                pass
+            return o
+
+        with open(self.db_data_path, 'r', encoding='utf8') as json_file:
+            json.load(json_file, indent=4, ensure_ascii=False, object_hook=decode_object)
         return copy.deepcopy(self.db_data)
 
     def serialize_db_data(self):
-        self.db_data.clear()
         self._parse_monsters()
         with open(self.db_data_path, 'w', encoding='utf8') as json_file:
-            json.dump(self.db_data, json_file)
+            json.dump(self.db_data, json_file, cls=DbDataEncoder, indent=4, ensure_ascii=False)
 
     def _parse_monsters(self):
         self._deserialize_monsters()
@@ -45,8 +74,81 @@ class JsonWorker(object):
             self._parse_stats(monster)
 
     def _deserialize_monsters(self):
+        self.monsters_list.clear()
         with open(self.monsters_path, 'r', encoding='utf8') as json_file:
-            self.monsters_list = json.load(json_file)
+            monsters_dicts = json.load(json_file)
+        for monster_dict in monsters_dicts:
+            if 'name' in monster_dict.keys():
+                name = monster_dict['name']
+            else:
+                name = ''
+            if 'armor_class' in monster_dict.keys():
+                armor_class = monster_dict['armor_class']
+            else:
+                armor_class = ''
+            if 'hits' in monster_dict.keys():
+                hits = monster_dict['hits']
+            else:
+                hits = ''
+            if 'speed' in monster_dict.keys():
+                speed = monster_dict['speed']
+            else:
+                speed = ''
+            if 'strength' in monster_dict.keys():
+                strength = monster_dict['strength']
+            else:
+                strength = ''
+            if 'agility' in monster_dict.keys():
+                agility = monster_dict['agility']
+            else:
+                agility = ''
+            if 'physique' in monster_dict.keys():
+                physique = monster_dict['physique']
+            else:
+                physique = ''
+            if 'intellect' in monster_dict.keys():
+                intellect = monster_dict['intellect']
+            else:
+                intellect = ''
+            if 'wisdom' in monster_dict.keys():
+                wisdom = monster_dict['wisdom']
+            else:
+                wisdom = ''
+            if 'charisma' in monster_dict.keys():
+                charisma = monster_dict['charisma']
+            else:
+                charisma = ''
+            if 'skills' in monster_dict.keys():
+                skills = monster_dict['skills']
+            else:
+                skills = ''
+            if 'feelings' in monster_dict.keys():
+                feelings = monster_dict['feelings']
+            else:
+                feelings = ''
+            if 'danger' in monster_dict.keys():
+                danger = monster_dict['danger']
+            else:
+                danger = ''
+            if 'abilities' in monster_dict.keys():
+                abilities = monster_dict['abilities']
+            else:
+                abilities = ''
+            if 'is_player' in monster_dict.keys():
+                is_player = monster_dict['is_player']
+            else:
+                is_player = ''
+            if 'actions' in monster_dict.keys():
+                actions = monster_dict['actions']
+            else:
+                actions = ''
+            if 'description' in monster_dict.keys():
+                description = monster_dict['description']
+            else:
+                description = ''
+            monster = Monster(name, armor_class, hits, speed, strength, agility, physique, intellect, wisdom,
+                              charisma, skills, feelings, danger, abilities, is_player, actions, description)
+            self.monsters_list.append(monster)
 
     def _parse_abilities(self, abilities_str):
         pass
@@ -144,23 +246,23 @@ class JsonWorker(object):
 
             open_scope_index = speeds_str.index('(')
             close_scope_index = speeds_str.index(')')
-            speeds_str = speeds_str[:open_scope_index] + speeds_str[close_scope_index+1:]
+            speeds_str = speeds_str[:open_scope_index] + speeds_str[close_scope_index + 1:]
 
         speeds_str_list = [speed_str.strip() for speed_str in speeds_str.strip().split(',')]
         for speed_str in speeds_str_list:
             words = [word.strip() for word in speed_str.split(' ')]
             if any(words):
                 speed = Speed()
+                if 'фт.' in words:
+                    ft_index = words.index('фт.')
+                    val_index = ft_index - 1
+                    value = "%s %s" % (words[val_index].replace('фт', ''), words[ft_index])
+                    speed.value = value
+                    if val_index != 0:
+                        type_ = words[0]
+                        speed.type = type_
 
-                ft_index = words.index('фт.')
-                val_index = ft_index - 1
-                value = "%s %s" % (words[val_index].replace('фт', ''), words[ft_index])
-                speed.value = value
-                if val_index != 0:
-                    type_ = words[0]
-                    speed.type = type_
-
-                monster_speeds.append(speed)
+                    monster_speeds.append(speed)
 
         self.db_data.speeds.append(monster_speeds)
 
@@ -168,7 +270,7 @@ class JsonWorker(object):
         strength, strength_plus = self._parse_stat_and_plus(monster.strength)
         physique, physique_plus = self._parse_stat_and_plus(monster.physique)
         intellect, intellect_plus = self._parse_stat_and_plus(monster.intellect)
-        wisdom, wisdom_plus = self._parse_stat_and_plus(monster.wisdow)
+        wisdom, wisdom_plus = self._parse_stat_and_plus(monster.wisdom)
         charisma, charisma_plus = self._parse_stat_and_plus(monster.charisma)
         stat = Stat(strength, strength_plus, physique, physique_plus, intellect, intellect_plus,
                     wisdom, wisdom_plus, charisma, charisma_plus)

@@ -1,3 +1,6 @@
+import json
+
+
 class DbData(object):
     def __init__(self, abilities=None, active_actions=None, armors=None, entities=None,
                  feelings=None, languages=None, skills=None, speeds=None, stats=None):
@@ -33,6 +36,15 @@ class DbData(object):
         self.skills = skills
         self.speeds = speeds
         self.stats = stats
+
+    # def get_json(self):
+    #     abilities_jsons = []
+    #     for i in range(len(self.abilities)):
+    #         monster_abilities = self.abilities[i]
+    #         monster_abilities_json = '"%s":%s' % (i, json.dumps(monster_abilities))
+    #         abilities_jsons.append(monster_abilities_json)
+    #
+    #     abilities_json = '"abilities":%s' % ()
 
     def clear(self):
         self.abilities.clear()
