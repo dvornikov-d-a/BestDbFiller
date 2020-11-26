@@ -6,27 +6,14 @@ from db.models.feeling import Feeling
 from db.models.skill import Skill
 from db.models.speed import Speed
 from db.models.stat import Stat
+from json_work.models.db_data import DbData
 
 
 class JsonWorker(object):
     def __init__(self):
         self.monsters_path = 'monsters.json'
         self.monsters_list = []
-
-        self.abilities = []
-        self.active_actions = []
-        self.armors = []
-        self.entities = []
-        # self.entities_abilities = []
-        # self.entities_actions = []
-        # self.entities_feelings = []
-        # self.entities_languages = []
-        # self.entities_skills = []
-        self.feelings = []  # список списков чувств монстров
-        self.languages = []
-        self.skills = []
-        self.speeds = []
-        self.stats = []
+        self.db_data = DbData()
 
     def parse_monsters(self):
         self._deserialize_monsters()
@@ -74,7 +61,7 @@ class JsonWorker(object):
             if any(extras):
                 armor.extra_armor = ', '.join(extras)
 
-        self.armors.append(armor)
+        self.db_data.armors.append(armor)
 
     def _parse_entity(self, monster):
         name = monster.name.strip()
@@ -82,7 +69,7 @@ class JsonWorker(object):
         danger = monster.danger.strip()
         desc = monster.description.strip()
         entity = Entity(name=name, hits=hits, danger=danger, desc=desc)
-        self.entities.append(entity)
+        self.db_data.entities.append(entity)
 
     def _parse_feelings(self, feelings_str):
         feelings_str_list = feelings_str.strip().split(',')
@@ -110,7 +97,7 @@ class JsonWorker(object):
 
                 monster_feelings.append(feeling)
 
-        self.feelings.append(monster_feelings)
+        self.db_data.feelings.append(monster_feelings)
 
     def _parse_languages(self, languages_str):
         pass
@@ -128,7 +115,7 @@ class JsonWorker(object):
                 skill = Skill(name, buff)
                 monster_skills.append(skill)
 
-        self.skills.append(monster_skills)
+        self.db_data.skills.append(monster_skills)
 
     def _parse_speed(self, speeds_str):
         monster_speeds = []
@@ -136,7 +123,7 @@ class JsonWorker(object):
         # избавиться от скобок
         while speeds_str.__contains__('('):
             if not speeds_str.__contains__(')'):
-                self.speeds.append(monster_speeds)
+                self.db_data.speeds.append(monster_speeds)
                 return
 
             open_scope_index = speeds_str.index('(')
@@ -154,12 +141,12 @@ class JsonWorker(object):
                 value = "%s %s" % (words[val_index].replace('фт', ''), words[ft_index])
                 speed.value = value
                 if val_index != 0:
-                    type = words[0]
-                    speed.type = type
+                    type_ = words[0]
+                    speed.type = type_
 
                 monster_speeds.append(speed)
 
-        self.speeds.append(monster_speeds)
+        self.db_data.speeds.append(monster_speeds)
 
     def _parse_stats(self, monster):
         strength, strength_plus = self._parse_stat_and_plus(monster.strength)
@@ -169,11 +156,11 @@ class JsonWorker(object):
         charisma, charisma_plus = self._parse_stat_and_plus(monster.charisma)
         stat = Stat(strength, strength_plus, physique, physique_plus, intellect, intellect_plus,
                     wisdom, wisdom_plus, charisma, charisma_plus)
-        self.stats.append(stat)
+        self.db_data.stats.append(stat)
 
     @staticmethod
     def _parse_stat_and_plus(stat_str):
-        stat_and_plus = [str.strip() for str in stat_str.strip().split(' ')]
+        stat_and_plus = [str_.strip() for str_ in stat_str.strip().split(' ')]
         if len(stat_and_plus) == 2:
             stat = stat_and_plus[0]
             plus = stat_and_plus[1].replace('(', '').replace(')', '')
