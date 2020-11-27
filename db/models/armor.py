@@ -1,8 +1,8 @@
 class Armor(object):
-    def __init__(self, armor_class='NULL', type_='NULL', extra_armor='NULL'):
-        self.armor_class = armor_class
+    def __init__(self, class_='NULL', type_='NULL', extra='NULL'):
+        self.class_ = class_
         self.type = type_
-        self.extra_armor = extra_armor
+        self.extra = extra
 
     def __repr__(self):
-        return "Armor('%s', '%s', '%s')" % (self.armor_class, self.type, self.extra_armor)
+        return "Armor('%s', '%s', '%s')" % (self.class_, self.type, self.extra)

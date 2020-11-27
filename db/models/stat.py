@@ -1,4 +1,24 @@
-class Stat(object):
+from sqlalchemy import Column, Integer
+from sqlalchemy.ext.declarative import declarative_base
+
+
+Base = declarative_base()
+
+
+class Stat(object, Base):
+    # __tablename__ = 'stats'
+    # id = Column('id', Integer, primary_key=True)
+    # strength = Column('strength', Integer)
+    # strength_plus = Column('strength_plus', Integer)
+    # physique = Column('physique', Integer)
+    # physique_plus = Column('physique_plus', Integer)
+    # intellect = Column('intellect', Integer)
+    # intellect_plus = Column('intellect_plus', Integer)
+    # wisdom = Column('wisdom', Integer)
+    # wisdom_plus = Column('wisdom_plus', Integer)
+    # charisma = Column('charisma', Integer)
+    # charisma_plus = Column('charisma_plus', Integer)
+
     def __init__(self, strength='NULL', strength_plus='NULL', physique='NULL', physique_plus='NULL',
                  intellect='NULL', intellect_plus='NULL', wisdom='NULL', wisdom_plus='NULL',
                  charisma='NULL', charisma_plus='NULL'):

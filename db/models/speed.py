@@ -1,4 +1,11 @@
-class Speed(object):
+from sqlalchemy import Column, Integer, ForeignKey
+from sqlalchemy.ext.declarative import declarative_base
+
+
+Base = declarative_base()
+
+
+class Speed(object, Base):
     def __init__(self, entity='NULL', speed_type='NULL', speed_value='NULL'):
         self.entity = entity
         self.type = speed_type

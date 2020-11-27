@@ -94,7 +94,7 @@ class JsonWorker(object):
         for monster in self.monsters_list:
             self._parse_abilities(monster.abilities)
             self._parse_active_actions(monster.actions)
-            self._parse_armor(monster.armor_class)
+            self._parse_armor(monster.class_)
             self._parse_entity(monster)
             self._parse_feelings(monster.feelings)
             # self._parse_languages(?)
@@ -191,7 +191,7 @@ class JsonWorker(object):
         class_char = armor_str.strip().split('(')
         if any(class_char):
             armor_class = class_char[0].strip()
-            armor.armor_class = armor_class
+            armor.class_ = armor_class
         if len(class_char) == 2:
             types_extras_str = class_char[1].strip().replace(')', '')
             types_extras = types_extras_str.split(',')
@@ -206,7 +206,7 @@ class JsonWorker(object):
             if any(types):
                 armor.type = ', '.join(types)
             if any(extras):
-                armor.extra_armor = ', '.join(extras)
+                armor.extra = ', '.join(extras)
 
         self.db_data.armors.append(armor)
 

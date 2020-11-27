@@ -11,7 +11,7 @@ from sqlalchemy.orm import sessionmaker
 # conn.close()
 
 # Соединение с БД
-engine = create_engine('postgresql+psycopg2://postgres:LuckyStrike@localhost/test_db', echo=True)
+engine = create_engine('postgresql+psycopg2://postgres:123@localhost/test_db', echo=True)
 
 # Создание таблицы в БД
 metadata = MetaData()
