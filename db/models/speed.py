@@ -5,4 +5,4 @@ class Speed(object):
         self.value = speed_value
 
     def __repr__(self):
-        return "EntitySpeed('%s', '%s', '%s')" % (self.entity, self.type, self.value)
+        return "Speed('%s', '%s', '%s')" % (self.entity, self.type, self.value)

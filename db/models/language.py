@@ -1,5 +1,5 @@
 class Language(object):
-    def __init__(self, name, info):
+    def __init__(self, name='NULL', info='NULL'):
         self.name = name
         self.info = info
 

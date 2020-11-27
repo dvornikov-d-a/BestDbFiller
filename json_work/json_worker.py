@@ -27,32 +27,61 @@ class JsonWorker(object):
         self.db_data.clear()
 
         def decode_object(o):
-            if isinstance(o, DbData):
+            o_dict = o
+            if 'db_data' in o_dict and isinstance(o_dict['db_data'], bool):
                 db_data = DbData()
-                db_data.__dict__.update(o)
+                o_dict.pop('db_data')
+                db_data.__dict__.update(o_dict)
                 return db_data
-            elif isinstance(o, Ability):
-                pass
-            elif isinstance(o, ActiveAction):
-                pass
-            elif isinstance(o, Armor):
-                pass
-            elif isinstance(o, Entity):
-                pass
-            elif isinstance(o, Feeling):
-                pass
-            elif isinstance(o, Language):
-                pass
-            elif isinstance(o, Skill):
-                pass
-            elif isinstance(o, Speed):
-                pass
-            elif isinstance(o, Stat):
-                pass
+            elif 'ability' in o_dict and isinstance(o_dict['ability'], bool):
+                ability = Ability()
+                o_dict.pop('ability')
+                ability.__dict__.update(o_dict)
+                return ability
+            elif 'active_action' in o_dict and isinstance(o_dict['active_action'], bool):
+                active_action = ActiveAction()
+                o_dict.pop('active_action')
+                active_action.__dict__.update(o_dict)
+                return active_action
+            elif 'armor' in o_dict and isinstance(o_dict['armor'], bool):
+                armor = Armor()
+                o_dict.pop('armor')
+                armor.__dict__.update(o_dict)
+                return armor
+            elif 'entity' in o_dict and isinstance(o_dict['entity'], bool):
+                entity = Entity()
+                o_dict.pop('entity')
+                entity.__dict__.update(o_dict)
+                return entity
+            elif 'feeling' in o_dict and isinstance(o_dict['feeling'], bool):
+                feeling = Feeling()
+                o_dict.pop('feeling')
+                feeling.__dict__.update(o_dict)
+                return feeling
+            elif 'language' in o_dict and isinstance(o_dict['language'], bool):
+                language = Language()
+                o_dict.pop('language')
+                language.__dict__.update(o_dict)
+                return language
+            elif 'skill' in o_dict and isinstance(o_dict['skill'], bool):
+                skill = Skill()
+                o_dict.pop('skill')
+                skill.__dict__.update(o_dict)
+                return skill
+            elif 'speed' in o_dict and isinstance(o_dict['speed'], bool):
+                speed = Speed()
+                o_dict.pop('speed')
+                speed.__dict__.update(o_dict)
+                return speed
+            elif 'stat' in o_dict and isinstance(o_dict['stat'], bool):
+                stat = Stat()
+                o_dict.pop('stat')
+                stat.__dict__.update(o_dict)
+                return stat
             return o
 
         with open(self.db_data_path, 'r', encoding='utf8') as json_file:
-            json.load(json_file, indent=4, ensure_ascii=False, object_hook=decode_object)
+            self.db_data = json.load(json_file, object_hook=decode_object)
         return copy.deepcopy(self.db_data)
 
     def serialize_db_data(self):

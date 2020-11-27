@@ -1,5 +1,5 @@
 class ActiveAction(object):
-    def __init__(self, name, desc):
+    def __init__(self, name='NULL', desc='NULL'):
         self.name = name
         self.desc = desc
 
