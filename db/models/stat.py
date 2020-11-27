@@ -22,6 +22,7 @@ class Stat(object, Base):
     def __init__(self, strength='NULL', strength_plus='NULL', physique='NULL', physique_plus='NULL',
                  intellect='NULL', intellect_plus='NULL', wisdom='NULL', wisdom_plus='NULL',
                  charisma='NULL', charisma_plus='NULL'):
+        self.id = 'NULL'
         self.strength = strength
         self.strength_plus = strength_plus
         self.physique = physique
