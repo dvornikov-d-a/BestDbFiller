@@ -22,6 +22,7 @@ class DbWorker(object):
             skills_ids = self._insert_skills(db_data.skills, connection)
             feelings_ids = self._insert_feelings(db_data.feelings, connection)
             entities_ids = self._insert_entities(db_data.entities, stats_ids, armors_ids, connection)
+            speeds_ids = self.__insert_speeds(db_data.speeds, entities_ids, connection)
 
     def _insert_stats(self, stats, connection):
         stats_ids = []
