@@ -22,7 +22,10 @@ class DbWorker(object):
             skills_ids = self._insert_skills(db_data.skills, connection)
             feelings_ids = self._insert_feelings(db_data.feelings, connection)
             entities_ids = self._insert_entities(db_data.entities, stats_ids, armors_ids, connection)
-            speeds_ids = self.__insert_speeds(db_data.speeds, entities_ids, connection)
+            speeds_ids = self._insert_speeds(db_data.speeds, entities_ids, connection)
+            self._insert_entities_mm(entities_ids, abilities_ids, active_actions_ids,
+                                     feelings_ids, languages_ids, skills_ids,
+                                     connection)
 
     def _insert_stats(self, stats, connection):
         stats_ids = []
@@ -188,7 +191,7 @@ class DbWorker(object):
             entities_ids.append(entity_id)
         return entities_ids
 
-    def __insert_speeds(self, speeds, entities_ids, connection):
+    def _insert_speeds(self, speeds, entities_ids, connection):
         speeds_ids = []
         for entity, monster_speeds in zip(entities_ids, speeds):
             monster_speeds_ids = []
@@ -204,6 +207,43 @@ class DbWorker(object):
                 monster_speeds_ids.append(speed_id)
             speeds_ids.append(monster_speeds_ids)
         return speeds_ids
+
+    @staticmethod
+    def _insert_entities_mm(entities_ids, abilities_ids, active_actions_ids, feelings_ids, languages_ids, skills_ids,
+                            connection):
+        for entity, abilities, active_actions, feelings, languages, skills in zip(entities_ids, abilities_ids,
+                                                                                  active_actions_ids, feelings_ids,
+                                                                                  languages_ids, skills_ids):
+            for ability in abilities:
+                insert_query = f'INSERT INTO {entities_abilities_table_name} ' \
+                               f'({entities_abilities_entity_col_name}, {entities_abilities_ability_col_name}) ' \
+                               f'VALUES ' \
+                               f'({entity}, {ability});'
+                connection.execute(insert_query)
+            for active_action in active_actions:
+                insert_query = f'INSERT INTO {entities_actions_table_name} ' \
+                               f'({entities_actions_entity_col_name}, {entities_actions_active_action_col_name}) ' \
+                               f'VALUES ' \
+                               f'({entity}, {active_action});'
+                connection.execute(insert_query)
+            for feeling in feelings:
+                insert_query = f'INSERT INTO {entities_feelings_table_name} ' \
+                               f'({entities_feelings_entity_col_name}, {entities_feelings_feeling_col_name}) ' \
+                               f'VALUES ' \
+                               f'({entity}, {feeling});'
+                connection.execute(insert_query)
+            for language in languages:
+                insert_query = f'INSERT INTO {entities_languages_table_name} ' \
+                               f'({entities_languages_entity_col_name}, {entities_languages_language_col_name}) ' \
+                               f'VALUES ' \
+                               f'({entity}, {language});'
+                connection.execute(insert_query)
+            for skill in skills:
+                insert_query = f'INSERT INTO {entities_skills_table_name} ' \
+                               f'({entities_skills_entity_col_name}, {entities_skills_skill_col_name}) ' \
+                               f'VALUES ' \
+                               f'({entity}, {skill});'
+                connection.execute(insert_query)
 
     @staticmethod
     def _insert_returning_id(insert_query, connection, id_col_name='id'):

@@ -89,3 +89,23 @@ entities_exp_col_type = 'integer'
 entities_stats_col_name = 'stats_id'
 entities_armor_col_name = 'armor_class_id'
 
+entities_abilities_table_name = 'actions_mm'
+entities_abilities_entity_col_name = 'entity_id'
+entities_abilities_ability_col_name = 'action_id'
+
+entities_actions_table_name = 'abilities_mm'
+entities_actions_entity_col_name = 'entity_id'
+entities_actions_active_action_col_name = 'active_ability_id'
+
+entities_feelings_table_name = 'feelings_mm'
+entities_feelings_entity_col_name = 'entity_id'
+entities_feelings_feeling_col_name = 'feelings_id'
+
+entities_languages_table_name = 'language_mm'
+entities_languages_entity_col_name = 'entity_id'
+entities_languages_language_col_name = 'language_id'
+
+entities_skills_table_name = 'skills_mm'
+entities_skills_entity_col_name = 'entity_id'
+entities_skills_skill_col_name = 'skills_id'
+
