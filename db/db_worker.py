@@ -74,7 +74,9 @@ class DbWorker(object):
                                f'VALUES ' \
                                f'({name}, {info}) ' \
                                f'RETURNING id;'
-                ability_id = self._insert_returning_id(insert_query, connection)
+                ability_id = self._insert_with_check_returning_id(insert_query,
+                                                                  abilities_name_col_name, name, abilities_table_name,
+                                                                  connection)
                 monster_abilities_ids.append(ability_id)
 
             abilities_ids.append(monster_abilities_ids)
@@ -94,7 +96,9 @@ class DbWorker(object):
                                f'VALUES ' \
                                f'({name}, {info}) ' \
                                f'RETURNING id;'
-                language_id = self._insert_returning_id(insert_query, connection)
+                language_id = self._insert_with_check_returning_id(insert_query,
+                                                                   languages_name_col_name, name, languages_table_name,
+                                                                   connection)
                 monster_languages_ids.append(language_id)
             languages_ids.append(monster_languages_ids)
         return languages_ids
@@ -111,7 +115,9 @@ class DbWorker(object):
                                f'VALUES ' \
                                f'({name}, {desc}) ' \
                                f'RETURNING id;'
-                active_action_id = self._insert_returning_id(insert_query, connection)
+                active_action_id = self._insert_with_check_returning_id(insert_query,
+                                                                        active_actions_name_col_name, name,
+                                                                        active_actions_table_name, connection)
                 monster_active_actions_ids.append(active_action_id)
             active_actions_ids.append(monster_active_actions_ids)
         return active_actions_ids
@@ -180,6 +186,7 @@ class DbWorker(object):
             exp = self._null_or_int(entity.exp)
             stats = stats_ids[index]
             armor = armors_ids[index]
+
             insert_query = f'INSERT INTO {entities_table_name} ' \
                            f'({entities_name_col_name}, {entities_hp_col_name}, {entities_hits_col_name},' \
                            f' {entities_danger_col_name}, {entities_desc_col_name}, {entities_exp_col_name},' \
@@ -249,6 +256,30 @@ class DbWorker(object):
     def _insert_returning_id(insert_query, connection, id_col_name='id'):
         return connection.execute(insert_query).first()[id_col_name]
 
+    def _insert_with_check_returning_id(self, insert_query,
+                                        check_col_name, check_col_value, table_name,
+                                        connection, id_col_name='id'):
+        if self._is_row_exists(check_col_name, check_col_value, table_name, connection):
+            id_ = self._get_row_id(check_col_name, check_col_value, table_name, connection, id_col_name)
+        else:
+            id_ = self._insert_returning_id(insert_query, connection, id_col_name)
+        return id_
+
+    @staticmethod
+    def _get_row_id(col_name, col_value, table_name, connection, id_col_name='id'):
+        select_query = f'SELECT {id_col_name} FROM {table_name} WHERE {col_name}={col_value};'
+        id_ = connection.execute(select_query).first()[id_col_name]
+        return id_
+
+    @staticmethod
+    def _is_row_exists(col_name, col_value, table_name, connection):
+        select_query = f'SELECT {col_name} FROM {table_name} WHERE {col_name}={col_value};'
+        row = connection.execute(select_query).first()
+        if row is None:
+            return False
+        else:
+            return True
+
     def _null_or_int(self, string):
         if string == 'NULL':
             return string
@@ -262,9 +293,8 @@ class DbWorker(object):
             if len(up_down) != 2:
                 return 'NULL'
             up, down = [self._parse_int_from_str(number) for number in up_down]
-            return round(float(up)/float(down), 2)
+            return round(float(up) / float(down), 2)
         return self._null_or_int(string)
-
 
     @staticmethod
     def _parse_int_from_str(string):
