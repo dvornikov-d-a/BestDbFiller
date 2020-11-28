@@ -175,7 +175,7 @@ class DbWorker(object):
             name = self._null_or_str(entity.name)
             hp = self._null_or_int(entity.hp)
             hits = self._null_or_str(entity.hits)
-            danger = self._null_or_str(entity.danger)
+            danger = self._null_or_real(entity.danger)
             desc = self._null_or_str(entity.desc)
             exp = self._null_or_int(entity.exp)
             stats = stats_ids[index]
@@ -253,6 +253,18 @@ class DbWorker(object):
         if string == 'NULL':
             return string
         return self._parse_int_from_str(string)
+
+    def _null_or_real(self, string):
+        if string == 'NULL':
+            return string
+        if string.__contains__('/'):
+            up_down = [number.strip() for number in string.split('/')]
+            if len(up_down) != 2:
+                return 'NULL'
+            up, down = [self._parse_int_from_str(number) for number in up_down]
+            return round(float(up)/float(down), 2)
+        return self._null_or_int(string)
+
 
     @staticmethod
     def _parse_int_from_str(string):

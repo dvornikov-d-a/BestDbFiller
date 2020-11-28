@@ -94,7 +94,7 @@ class JsonWorker(object):
         for monster in self.monsters_list:
             self._parse_abilities(monster.abilities)
             self._parse_active_actions(monster.actions)
-            self._parse_armor(monster.class_)
+            self._parse_armor(monster.armor_class)
             self._parse_entity(monster)
             self._parse_feelings(monster.feelings)
             # self._parse_languages(?)
@@ -191,7 +191,7 @@ class JsonWorker(object):
         class_char = armor_str.strip().split('(')
         if any(class_char):
             armor_class = class_char[0].strip()
-            armor.class_ = armor_class
+            armor.armor_class = armor_class
         if len(class_char) == 2:
             types_extras_str = class_char[1].strip().replace(')', '')
             types_extras = types_extras_str.split(',')
@@ -213,9 +213,15 @@ class JsonWorker(object):
     def _parse_entity(self, monster):
         name = monster.name.strip()
         hits = monster.hits.strip()
-        danger = monster.danger.strip()
+        danger_exp = tuple([danger_or_exp.strip() for danger_or_exp in monster.danger.strip().split('-')])
+        if len(danger_exp) == 2:
+            danger = danger_exp[0]
+            exp = danger_exp[1]
+        else:
+            danger = 'NULL'
+            exp = 'NULL'
         desc = monster.description.strip()
-        entity = Entity(name=name, hits=hits, danger=danger, desc=desc)
+        entity = Entity(name=name, hits=hits, danger=danger, exp=exp, desc=desc)
         self.db_data.entities.append(entity)
 
     def _parse_feelings(self, feelings_str):
