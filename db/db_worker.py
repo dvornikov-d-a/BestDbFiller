@@ -7,13 +7,14 @@ from json_work.models.db_data import DbData
 
 class DbWorker(object):
     def __init__(self):
-        connection_str = 'postgresql+psycopg2://{}:{}@{}/{}'.format(username, password, host, db_name)
-        self.engine = create_engine(connection_str, echo=True)
+        self.connection_str = 'postgresql+psycopg2://{}:{}@{}/{}'.format(username, password, host, db_name)
+        # self.engine = create_engine(connection_str, echo=True)
         # self.session = sessionmaker(bind=self.engine)()
         # self.metadata = MetaData(bind=self.engine)
 
     def insert_db_data(self, db_data):
-        with self.engine.connect() as connection:
+        engine = create_engine(self.connection_str, echo=True)
+        with engine.connect() as connection:
             stats_ids = self._insert_stats(db_data.stats, connection)
             abilities_ids = self._insert_abilities(db_data.abilities, connection)
             languages_ids = self._insert_languages(db_data.languages, connection)
@@ -26,6 +27,7 @@ class DbWorker(object):
             self._insert_entities_mm(entities_ids, abilities_ids, active_actions_ids,
                                      feelings_ids, languages_ids, skills_ids,
                                      connection)
+        engine.dispose()
 
     def _insert_stats(self, stats, connection):
         stats_ids = []
@@ -56,8 +58,7 @@ class DbWorker(object):
                            f'RETURNING id;'
             stat_id = self._insert_returning_id(insert_query, connection)
             stats_ids.append(stat_id)
-
-            return stats_ids
+        return stats_ids
 
     def _insert_abilities(self, abilities, connection):
         abilities_ids = []
@@ -218,33 +219,35 @@ class DbWorker(object):
     @staticmethod
     def _insert_entities_mm(entities_ids, abilities_ids, active_actions_ids, feelings_ids, languages_ids, skills_ids,
                             connection):
-        for entity, abilities, active_actions, feelings, languages, skills in zip(entities_ids, abilities_ids,
-                                                                                  active_actions_ids, feelings_ids,
-                                                                                  languages_ids, skills_ids):
+        for entity, abilities in zip(entities_ids, abilities_ids):
             for ability in abilities:
                 insert_query = f'INSERT INTO {entities_abilities_table_name} ' \
                                f'({entities_abilities_entity_col_name}, {entities_abilities_ability_col_name}) ' \
                                f'VALUES ' \
                                f'({entity}, {ability});'
                 connection.execute(insert_query)
+        for entity, active_actions in zip(entities_ids, active_actions_ids):
             for active_action in active_actions:
                 insert_query = f'INSERT INTO {entities_actions_table_name} ' \
                                f'({entities_actions_entity_col_name}, {entities_actions_active_action_col_name}) ' \
                                f'VALUES ' \
                                f'({entity}, {active_action});'
                 connection.execute(insert_query)
+        for entity, feelings in zip(entities_ids, feelings_ids):
             for feeling in feelings:
                 insert_query = f'INSERT INTO {entities_feelings_table_name} ' \
                                f'({entities_feelings_entity_col_name}, {entities_feelings_feeling_col_name}) ' \
                                f'VALUES ' \
                                f'({entity}, {feeling});'
                 connection.execute(insert_query)
+        for entity, languages in zip(entities_ids, languages_ids):
             for language in languages:
                 insert_query = f'INSERT INTO {entities_languages_table_name} ' \
                                f'({entities_languages_entity_col_name}, {entities_languages_language_col_name}) ' \
                                f'VALUES ' \
                                f'({entity}, {language});'
                 connection.execute(insert_query)
+        for entity, skills in zip(entities_ids, skills_ids):
             for skill in skills:
                 insert_query = f'INSERT INTO {entities_skills_table_name} ' \
                                f'({entities_skills_entity_col_name}, {entities_skills_skill_col_name}) ' \

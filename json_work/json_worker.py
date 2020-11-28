@@ -18,8 +18,8 @@ from json_work.models.monster import Monster
 
 class JsonWorker(object):
     def __init__(self):
-        self.db_data_path = 'json_source/db_data.json'
-        self.monsters_path = 'json_source/monsters.json'
+        self.db_data_path = 'json_work/json_source/db_data.json'
+        self.monsters_path = 'json_work/json_source/monsters.json'
         self.monsters_list = []
         self.db_data = DbData()
 
@@ -191,7 +191,7 @@ class JsonWorker(object):
         class_char = armor_str.strip().split('(')
         if any(class_char):
             armor_class = class_char[0].strip()
-            armor.armor_class = armor_class
+            armor.class_ = armor_class
         if len(class_char) == 2:
             types_extras_str = class_char[1].strip().replace(')', '')
             types_extras = types_extras_str.split(',')
@@ -321,3 +321,7 @@ class JsonWorker(object):
             stat, plus = 0, 0
 
         return stat, plus
+
+    @staticmethod
+    def _parse_int_from_str(string):
+        return int(''.join([symbol for symbol in string if symbol.isdigit()]))

@@ -3,4224 +3,3621 @@
     "active_actions": [],
     "armors": [
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "11 когда сбит с ног",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "шкурный доспех, щит",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "15 с доспехами мага",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "20",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "20",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "7",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "7",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "21",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "21",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "кольчужная рубаха",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "кираса",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "шкурный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "кольчуга",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "латы",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "9",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "9",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "кольчужная рубаха, щит",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "9",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "9",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "10 в облике гуманоида, 11 природный доспех в облике вепря и гибридном облике",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "11 в облике гуманоида, 12 природный доспех в облике волка или в гибридном облике",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "20",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "20",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "10 в облике гуманоида, 11 природный доспех в облике медведя и гибридном облике",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "наборный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "5",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "5",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "латы",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "кольчужная рубаха",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "кольчужная рубаха, щит",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "шкурный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "15 с доспехами мага",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "5",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "5",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "полулаты",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "латы",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "клепанный кожаный доспех, щит",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "кольчужная рубаха",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "шкурный доспех, щит",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "клепаная кожа",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "шкурный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "кожаный доспех, щит",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "кираса",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "20",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "20",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "16 с дубовой корой",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "клепанный кожаный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "20",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "20",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "20",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "20",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "22",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "22",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "21",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "21",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "22",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "22",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "22",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "22",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "20",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "20",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "21",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "21",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "22",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "22",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "22",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "22",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "22",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "22",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "21",
             "type": "латы, щиты",
             "extra": "NULL",
-            "armor_class": "21",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "16 с дубовой корой",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "кольчужная рубаха",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "проклёпанный кожаный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "полулаты",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "чешуйчатый доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "16 с дубовой корой",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "клепанный кожаный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "чешуйчатый доспех, щит",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "15 с магическим доспехом",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "шкурный доспех, щит",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "20",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "20",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "21",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "21",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "8",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "8",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "8",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "8",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "разнотканый доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "15 с доспехами мага",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "чешуйчатый доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "Природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "проклепанная кожа",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "полулаты",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "20",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "20",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "кожаная доспех, щит",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "14 с доспехами мага",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "15 с доспехами мага",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "15 с доспехами мага",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "проклепанная кожа",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "латы",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "15 с доспехами мага",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех, щит",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "лоскутный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "7",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "7",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех, щит",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "5",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "5",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "клепанный кожаный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "15 с доспехами мага",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "15 с доспехами мага",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "клепанный кожаный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "шкурный доспех, щит",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "9",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "9",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "9",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "9",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "проклепанная кожа",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "14 с доспехами мага",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "15 с доспехами мага",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "латы",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "20",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "20",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "латы",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "кольчужная рубаха, щит",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "13 с доспехами мага",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "шкурный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "8",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "8",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "15 с доспехами мага",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "кольчуга",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "шкурный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "9",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "9",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "кольчуга, щит",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "шкурный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "проклепанная кожа",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "колечный доспех, щит",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "шкурный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "латы",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "15 с доспехами мага",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "шкурный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "15 с доспехами мага",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "9",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "9",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "16 с доспехом мага",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "8",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "8",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "латы",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "20",
             "type": "латный доспех, щит",
             "extra": "NULL",
-            "armor_class": "20",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "кираса",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "кольчужная рубаха",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "8",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "8",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "кольчуга",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "обломки доспехов",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "обломки доспехов для коня",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "21",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "21",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "доспех из клепаной кожи",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "кольчужная рубаха, щит",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "6",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "6",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "25",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "25",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "латы",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "25",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "25",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "кираса",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "19",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "19",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "проклепанная кожа",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "кожаный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "кольчуга",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "шкурный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "кольчуга, щит",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "20",
             "type": "латный доспех, щит",
             "extra": "NULL",
-            "armor_class": "20",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "клепанная кожа",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "доспех из шкур",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "латы",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "7",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "7",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "11",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "11",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "15",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "15",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "20",
             "type": "латный доспех, щит",
             "extra": "NULL",
-            "armor_class": "20",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "чешуйчатый доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "17",
             "type": "природный доспех, щит",
             "extra": "NULL",
-            "armor_class": "17",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "проклепанная кожа, щит",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "22",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "22",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "18",
             "type": "латы",
             "extra": "NULL",
-            "armor_class": "18",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "16",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "16",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "12",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "12",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "14",
             "type": "природный доспех",
             "extra": "NULL",
-            "armor_class": "14",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "13",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "13",
             "armor": true
         },
         {
-            "class_": "NULL",
+            "class_": "10",
             "type": "NULL",
             "extra": "NULL",
-            "armor_class": "10",
             "armor": true
         }
     ],
@@ -27211,8 +26608,8 @@
         [
             {
                 "entity": "NULL",
-                "type": "фт.",
-                "value": ". фт.",
+                "type": "NULL",
+                "value": "20 фт.",
                 "speed": true
             }
         ],
@@ -27545,8 +26942,8 @@
         [
             {
                 "entity": "NULL",
-                "type": "фт.",
-                "value": ". фт.",
+                "type": "NULL",
+                "value": "50 фт.",
                 "speed": true
             }
         ],
